@@ -1,6 +1,6 @@
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className="py-12 text-center">No sectoin has been created yet. Development is going on.</div>
   )
 }
 
