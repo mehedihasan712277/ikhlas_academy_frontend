@@ -1,12 +1,10 @@
-import Image from "next/image"
-import madina from "@/assets/home.png";
 import TextSlider from "./textSlider/TextSlider";
 const Hero = () => {
     return (
         <>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center text-white">
                 {/* --------welcome part-------- */}
-                <p className="text-[70px] leading-[70px] font-bold">
+                <p className="text-[70px] leading-[70px] font-bold mt-20">
                     ইখলাস একাডেমী
                 </p>
                 {/* ----------slider------------ */}
@@ -15,7 +13,7 @@ const Hero = () => {
                 </div>
                 {/* -------button-------------- */}
                 <div>
-                    <button className="bg-[#1ba49c] text-white font-bold px-4 py-2 rounded-md">
+                    <button className="bg-white border-2 border-white text-gray-700 font-bold px-4 py-2 rounded-md">
                         বিস্তারিত
                     </button>
                 </div>

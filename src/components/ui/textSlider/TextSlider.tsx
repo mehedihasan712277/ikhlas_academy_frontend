@@ -1,6 +1,5 @@
 "use client"
 
-import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -38,10 +37,10 @@ const TextSlider = () => {
                         return <div key={i}>
                             <SwiperSlide>
                                 <div className='px-4'>
-                                    <p className='text-center'>
+                                    <p className='text-center text-gray-200'>
                                         {ele.description}
                                     </p>
-                                    <p className='text-center font-bold pt-3'>
+                                    <p className='text-center font-bold pt-3 text-gray-200'>
                                         {ele.ref}
                                     </p>
                                 </div>
