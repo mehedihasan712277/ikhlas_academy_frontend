@@ -13,7 +13,7 @@ const Navbar = () => {
                     {/* ---------------menu------------- */}
                     <div>
                         <ul className="flex gap-5 items-center font-bold text-gray-300">
-                            <li className="bg-green-500 px-4 py-2 rounded-full text-gray-200">হোম</li>
+                            <li className="bg-white px-4 py-2 rounded-full text-gray-700">হোম</li>
                             <li>আমাদের সম্পর্কে</li>
                             <li>কোর্স সমুহ</li>
                             <li>
